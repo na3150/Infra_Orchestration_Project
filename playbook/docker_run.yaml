@@ -1,4 +1,4 @@
-- hosts: docker_host
+- hosts: tomcat_host
   gather_facts: no
 
   tasks:
