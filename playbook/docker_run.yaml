@@ -1,0 +1,17 @@
+- hosts: docker_host
+  gather_facts: no
+
+  tasks:
+    - name: Remove Container
+      docker_container:
+        name: mini3-introduction
+        state: absent
+      ignore_errors: yes
+    - name: Create Container
+      docker_container:
+        name: mini3-introduction
+        image: na3150/mini3-introduction
+        state: started 
+        recreate: yes
+        ports:
+          - "8080:8080"
