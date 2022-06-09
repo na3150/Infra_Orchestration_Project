@@ -11,8 +11,8 @@
     - name: Build and Push Image
       docker_image:
         build:
-          path: /home/vagrant/mini3-introduction
-        name: na3150/mini3-introduction
+          path: /home/vagrant/mini4-introduction
+        name: na3150/mini4-introduction
         tag: "{{ lookup('env', 'BUILD_NUMBER') }}"
         push: yes
         source: build

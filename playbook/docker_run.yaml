@@ -4,13 +4,13 @@
   tasks:
     - name: Remove Container
       docker_container:
-        name: mini3-introduction
+        name: mini4-introduction
         state: absent
       ignore_errors: yes
     - name: Create Container
       docker_container:
         name: mini3-introduction
-        image: na3150/mini3-introduction
+        image: na3150/mini4-introduction
         state: started 
         recreate: yes
         ports:
