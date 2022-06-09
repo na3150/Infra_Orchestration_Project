@@ -12,7 +12,7 @@
       docker_image:
         build:
           path: /home/vagrant/mini3-introduction
-        name: na3150/mini-introduction
+        name: na3150/mini3-introduction
         tag: "{{ lookup('env', 'BUILD_NUMBER') }}"
         push: yes
         source: build
