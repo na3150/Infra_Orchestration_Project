@@ -40,7 +40,7 @@
     </p>
 </h1> 
 <h2 id="top_line"> </h2>
-    <h2 id="my_name"><span style="font-size:35px; font-family:'GmarketSansBold';">안녕하세요👋 재기발랄 2조 입니다!</span></h2> 
+    <h2 id="my_name"><span style="font-size:35px; font-family:'GmarketSansBold';">안녕하세요👋 산소같은 2조 입니다!</span></h2> 
     <br><br><br>
 
 <div id="middle5">
