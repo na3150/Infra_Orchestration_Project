@@ -1,7 +1,7 @@
 <html>
 <head>
-    <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-    <meta charset="UTF-8">
+    <%@ page contentType="text/html; charset=utf-8" %>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>mini4-project</title>
     <link rel="stylesheet" type="text/css" href="project.css">
 <style>
